@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe - Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>John Doe</h1>
+        <p>Creative Designer & Web Developer</p>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Welcome to my personal portfolio. I specialize in creating beautiful and functional websites.</p>
+        </section>
+
+        <section id="portfolio">
+            <h2>My Work</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">Project 1</div>
+                <div class="portfolio-item">Project 2</div>
+                <div class="portfolio-item">Project 3</div>
+                <div class="portfolio-item">Project 4</div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email me at <a href="mailto:john.doe@example.com">john.doe@example.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 John Doe. All rights reserved.</p>
+    </footer>
+</body>
+</html>
